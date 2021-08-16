@@ -1,0 +1,7 @@
+@mixin respond($break) {
+    @media only screen and (max-width: $break) { @content };
+}
+
+@mixin respond-min($break) {
+    @media only screen and (min-width: $break) { @content };
+}
